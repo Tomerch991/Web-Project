@@ -1,0 +1,109 @@
+	
+ *{
+	text-align: right;
+	font-family:calibri;
+	box-sizing:border-box;
+	direction: rtl;
+ } 
+ 
+ header
+{
+	padding: 1em;
+    color: black;
+    text-align: center;
+    clear: left;
+	font-weight:bold;
+}
+
+
+
+.main
+{
+	
+	width : 75%;
+	float : right;
+	margin: auto;
+}
+aside
+{
+	
+	width : 25%;
+	float:right;
+	
+	
+	
+}
+
+section
+{
+	width : 100%;
+	height: 100px;
+	display: inline;
+	font-weight:bold;
+	float : right;
+	padding : 4px;
+	border-style: outset;
+	background-color :red;
+	
+
+}
+.sectionPic
+{
+	width : 40%;
+	height : 100%;
+	float:right;
+	
+
+}
+
+h1{
+	text-align: center;
+}
+
+.sites
+{
+	width : 800px;
+	height: 350px;
+	border: solid 1px;
+	margin-right: 20px;
+	
+	
+}
+.sitePic
+{
+	width: 20%;
+	float:right;
+	
+}
+.infoPic
+{
+	height : 350px;
+	width: 160px;
+	padding: 0px;
+
+}
+.info
+{
+	width : 80%;
+	float:right;
+	text-align: right;
+	padding:10px;
+	
+	
+	
+}
+.siteP
+{
+	text-align: right;
+	
+	
+}
+
+li
+{
+	
+	text-align: right;
+}
+.clear{
+	clear: both;
+}

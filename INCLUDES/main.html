@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ברצלונה - המדריך השלם</title>
+	<link rel="stylesheet" type="text/css" href="..\css\mainstyle.css">
+</head>
+<body>
+	<header><h1><br>ברוכים הבאים למדריך החברתי לברצלונה!</h1></header>
+	<main>
+		<p>אתר זה נועד לספק לנוסע מידע עדכני בכדי להרכיב את החופשה הטובה ביותר, אשר נתמך ע"י גולשי האתר (לייקים, ביקורות ותגובות).</p>
+		<img src="..\pic\divider.png" height="25px">
+		<p>אם ניתן להמשיל את ספרד ליין עשיר עתיק יומין ואיכותי, הרי ברצלונה (Barcelona) היא שמפניה תוססת. אחרי הכל גדלו ויצרו כאן גאודי, דאלי ופבלו רואיז פיקאסו. יש הרבה מה לראות ולעשות בעיר וסביבותיה ומה שבטוח הוא שלחובבי אדריכלות ואמנות לא יחסר מה לעשות. מוזיאון פיקאסו, המוזיאון לאמנות בת זמננו, מוזיאון התלבושות והאריגים, הם רק חלק מהמוזיאונים שאפשר למצוא בעיר ברצלונה. אפשר לבקר בעיר גם בפארק גואל, כנסיית הסגרדה פמיליה, פארק הלברינת, גן הסיוטודלה, פורט אוונטורה ובגן החיות של ברצלונה.
+			ברצלונה היא העיר השנייה בגודלה בספרד, אחרי מדריד והיא עיר תוססת, מלאה במקומות בילוי וחיי לילה מגוונים. אם אתם מתעניינים בעיר למטרת עסקים, כדאי להיכנס לרשימת תערוכות וכנסים מקצועיים בברצלונה מלמטייל ביזנס. ואם אתם מעוניינים, תוכלו לצאת מכאן לשייט באירופה באוניה.</p>
+		<img src="..\pic\divider.png" height="25px">
+		<p>באתר זה תוכלו לקבל המלצות לאתרים, מסעדות, מלונות ומקומות הבילוי האהובים על גולשי האתר. בנוסף, תוכלו לשמור את המקומות שאהבתם ולשלוח לעצמם למייל בצורה נוחה וקלה.</p>
+		<br>
+		
+		<!-- Slideshow -->
+		
+		<div class="slideshow">
+			<div class="mySlides">
+				<img class="picSlides" src="..\pic\barcelona1.jpg"> <p class="picDesc">כיכר ד'אספניה</p>
+			</div>
+			<div class="mySlides">
+				<img class="picSlides" src="..\pic\barcelona2.jpg"> <p class="picDesc">פארק דה לה סיוטדלה</p>
+			</div>
+			<div class="mySlides">
+				<img class="picSlides" src="..\pic\barcelona3.jpg"> <p class="picDesc">כנסיית סגרדה פמילייה</p>
+			</div>
+			<div class="mySlides">
+				<img class="picSlides" src="..\pic\barcelona4.jpg"> <p class="picDesc">רצועת החוף</p>
+			</div>
+			<div class="mySlides">
+				<img class="picSlides" src="..\pic\barcelona5.jpg"> <p class="picDesc">פלאו דה לה מוזיקה קטלנה</p>
+			</div>
+			<div class="mySlides">
+				<img class="picSlides" src="..\pic\barcelona6.jpg"> <p class="picDesc">כיכר קטלוניה</p>
+			</div>
+
+			<button class="button left" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="button right" onclick="plusDivs(1)">&#10095;</button>
+
+		</div>
+		
+		<!-- Youtube video -->
+		<br><br><img src="..\pic\divider.png" height="25px">
+		<p>סרטון המציג את יופיה של ברצלונה:</p><br>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/EyEyojMvveY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		
+	</main>
+
+	<!-- Slideshow JS script -->
+	<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}    
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+		 x[i].style.display = "none";  
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	}
+	</script>
+	
+</body>
+</html>

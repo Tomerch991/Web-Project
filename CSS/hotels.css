@@ -1,0 +1,96 @@
+ *{
+	text-align: center;
+	font-family:calibri;
+	box-sizing:border-box;
+	direction: rtl;
+ } 
+
+.main
+{
+	width :90%;
+	text-align: center;
+	margin: auto;
+	
+}
+header
+{
+	padding: 1em;
+    color: black;
+    clear: left;
+    text-align: center;
+	
+}
+
+
+.card-deck
+{
+	width :100%;
+	position : relative;
+	padding-top: 25px;
+	margin: auto;
+}
+.card-block
+{
+	background-color: #F0F8FF;
+}
+.card
+{
+	width : 30%;
+	padding:4px;
+	text-align: center;
+	margin: auto;
+	background-color: #F5F5DC;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 1%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+ 
+  
+}
+.card:hover .overlay {
+  opacity: 1;
+}
+.card-img-top
+{
+	height : 50%;
+	
+}
+
+
+.card-title
+{
+	text-align : center;
+	color: #6666ff;
+	font-weight:bold;
+	letter-spacing:2px;
+	
+}
+
+.rating
+{
+	margin:auto;
+}
+
+.card-text 
+{
+	text-align : right;
+}
+
+.contactBox
+{
+	text-align : center;
+	direction: ltr;
+}
+
+.link{
+	background-color: #669999;
+	display:block;
+	padding: 4px;
+	font-size:16;
+	color:black;
+	font-weight:bold;
+}

@@ -1,0 +1,114 @@
+	
+ *{
+	text-align: right;
+	font-family:calibri;
+	box-sizing:border-box;
+	direction: rtl;
+ } 
+ 
+ header
+{
+	padding: 1em;
+    color: black;
+    text-align: center;
+    clear: left;
+	font-weight:bold;
+}
+
+
+
+.main
+{
+	
+	width : 75%;
+	float : right;
+	margin: auto;
+}
+aside
+{
+	
+	width : 25%;
+
+	float:right;
+}
+.asideSection
+{
+	width : 100%;
+	height: 100px;
+	display: inline;
+	font-weight:bold;
+	float : right;
+	padding : 4px;
+	border-radius: 25px;
+	font-size: 18px;
+
+}
+.sectionPic
+{
+	width :35%;
+	height : 100%;
+	float:right;
+	padding : 3px;
+	border-radius: 50%;
+	
+	
+
+}
+.sectionPic:hover
+{
+	border: 1px solid black;
+	box-shadow: 5px 5px 5px grey;
+	
+}
+
+h1{
+	text-align: center;
+}
+
+.siteSection
+{
+	width : 800px;
+	height: 350px;
+	border: solid 1px;
+	margin-right: 20px;
+	
+	
+}
+.sitePic
+{
+	width: 20%;
+	float:right;
+	
+}
+.infoPic
+{
+	height : 350px;
+	width: 160px;
+	padding: 0px;
+
+}
+.info
+{
+	width : 80%;
+	float:right;
+	text-align: right;
+	padding:10px;
+	
+	
+	
+}
+.siteP
+{
+	text-align: right;
+	
+	
+}
+
+li
+{
+	
+	text-align: right;
+}
+.clear{
+	clear: both;
+}
